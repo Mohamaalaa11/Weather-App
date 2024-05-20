@@ -15,22 +15,23 @@ body {
   font-size: 2rem;
   height: 100vh;
   color: #222;
-  background-color: #eabfb9;
+  background-color: #b9d1ea;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 button {
-  padding: 20px;
-  background-color: #eabfb9;
+  padding: 15px;
+  background-color: #b9d1ea;
+  margin: 25px 0;
 }
 
 button :hover {
-  padding: 20px;
+  padding: 15px;
   background-color: white;
-  color: #eabfb9;
-  border: #eabfb9;
+  color: #b9d1ea;
+  border: #2a7fe6;
   cursor: pointer;
 }
 .app {
@@ -56,19 +57,27 @@ h2 {
   text-align: center;
   margin-bottom: 2.4rem;
 }
-
+ul {
+  display: flex;
+}
 input {
   font-family: inherit;
   color: inherit;
   font-size: 2rem;
-  background-color: #f0d2ce;
+  background-color: #b9d1ea;
   padding: 1.6rem 3.2rem;
-  border: none;
-  width: 64rem;
+  border: 1px solid #00000088 !important;
+  width: 100%;
 }
 
 input:focus {
   outline: 2px solid #222;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .weather {
@@ -78,7 +87,7 @@ input:focus {
 }
 
 .day {
-  background-color: #f0d2ce;
+  background-color: #99c0ea8e;
   padding: 1.6rem 0 2rem;
   width: 12.8rem;
 

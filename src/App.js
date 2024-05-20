@@ -121,7 +121,7 @@ function Day({ date, min, max, code }) {
       <span>{getWeatherIcon(code)}</span>
       <p>{formatDay(date)}</p>
       <p>
-        {Math.floor(min)} &deg; &mdash; {Math.ceil(max)}&deg;
+        {Math.ceil(max)} &deg; &mdash; {Math.floor(min)} &deg;
       </p>
     </li>
   );
